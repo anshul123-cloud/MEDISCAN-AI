@@ -275,7 +275,7 @@ export default function UploadForm() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
-              <ResultsDisplay results={results} onReset={resetForm} />
+              <ResultsDisplay results={results} onReset={resetForm} imagePreview={imagePreview}
             </motion.div>
           )}
         </AnimatePresence>
