@@ -213,7 +213,7 @@ export default function Home() {
               <div className="bg-white p-4 rounded-xl shadow-lg">
                 <div className="aspect-[4/3] relative rounded-lg overflow-hidden mb-4 bg-slate-100">
                 <video
-  src="https://v1.pinimg.com/videos/mc/hls/3d/9f/d8/3d9fd8ec98402b9f9568f52c482ee965.m3u8"
+  src="/video.mp4"
   width={800}
   height={600}
   className="object-cover"
